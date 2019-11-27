@@ -1,3 +1,7 @@
+tags:
+    - docker
+    - prod
+
 stages:
     - build
     - push
