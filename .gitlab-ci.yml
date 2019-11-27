@@ -5,5 +5,4 @@ stages:
 build:
     stage: build
     script:
-        - sudo su
         - docker build ./runner/
