@@ -7,7 +7,7 @@ build:
     script:
         - docker build ./runner/ -t jv-runner:v1
 
-push"
+push:
     stage: push
     script:
         - ./runner/push.sh
