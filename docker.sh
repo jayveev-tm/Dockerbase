@@ -20,7 +20,5 @@ cat > /etc/docker/daemon.json <<EOF
   "storage-driver": "overlay2"
 }
 EOF
-systemctl enable docker.service
-systemctl daemon-reload
-systemctl restart docker.service
+service start docker
 docker run hello-world
