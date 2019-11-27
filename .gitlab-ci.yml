@@ -5,5 +5,4 @@ stages:
 build:
     stage: build
     script:
-        - ./docker.sh
         - docker build ./runner/
