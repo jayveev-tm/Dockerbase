@@ -1,0 +1,7 @@
+stages:
+    - build
+    - push
+
+build:
+    stage: build
+    script: docker build ./runner
