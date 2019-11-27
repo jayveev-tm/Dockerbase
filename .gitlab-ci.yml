@@ -5,4 +5,4 @@ stages:
 build:
     stage: build
     script:
-        - docker build ./runner/
+        - docker build ./runner/ -t jv-runner:v1
